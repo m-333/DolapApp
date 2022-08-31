@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD450A3D28BE35A400107B41 /* UrunCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD450A3C28BE35A400107B41 /* UrunCollectionViewCell.swift */; };
+		FD450A3F28BE3EA600107B41 /* Urunler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD450A3E28BE3EA600107B41 /* Urunler.swift */; };
 		FDA1620228BBDAB000008B60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA1620128BBDAB000008B60 /* AppDelegate.swift */; };
 		FDA1620428BBDAB000008B60 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA1620328BBDAB000008B60 /* SceneDelegate.swift */; };
 		FDA1620628BBDAB000008B60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA1620528BBDAB000008B60 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD450A3C28BE35A400107B41 /* UrunCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrunCollectionViewCell.swift; sourceTree = "<group>"; };
+		FD450A3E28BE3EA600107B41 /* Urunler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Urunler.swift; sourceTree = "<group>"; };
 		FDA161FE28BBDAB000008B60 /* DolapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DolapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDA1620128BBDAB000008B60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDA1620328BBDAB000008B60 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 				FDA1620128BBDAB000008B60 /* AppDelegate.swift */,
 				FDA1620328BBDAB000008B60 /* SceneDelegate.swift */,
 				FDA1620528BBDAB000008B60 /* ViewController.swift */,
+				FD450A3C28BE35A400107B41 /* UrunCollectionViewCell.swift */,
+				FD450A3E28BE3EA600107B41 /* Urunler.swift */,
 				FDA1620728BBDAB000008B60 /* Main.storyboard */,
 				FDA1620A28BBDAB200008B60 /* Assets.xcassets */,
 				FDA1620C28BBDAB200008B60 /* LaunchScreen.storyboard */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD450A3D28BE35A400107B41 /* UrunCollectionViewCell.swift in Sources */,
 				FDA1620628BBDAB000008B60 /* ViewController.swift in Sources */,
 				FDA1620228BBDAB000008B60 /* AppDelegate.swift in Sources */,
+				FD450A3F28BE3EA600107B41 /* Urunler.swift in Sources */,
 				FDA1620428BBDAB000008B60 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
