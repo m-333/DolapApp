@@ -15,6 +15,7 @@
 		FDA1620928BBDAB000008B60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA1620728BBDAB000008B60 /* Main.storyboard */; };
 		FDA1620B28BBDAB200008B60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA1620A28BBDAB200008B60 /* Assets.xcassets */; };
 		FDA1620E28BBDAB200008B60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA1620C28BBDAB200008B60 /* LaunchScreen.storyboard */; };
+		FDC2F65428C0E703004D3B95 /* DetayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC2F65328C0E703004D3B95 /* DetayVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		FDA1620A28BBDAB200008B60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDA1620D28BBDAB200008B60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDA1620F28BBDAB200008B60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDC2F65328C0E703004D3B95 /* DetayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				FDA1620128BBDAB000008B60 /* AppDelegate.swift */,
 				FDA1620328BBDAB000008B60 /* SceneDelegate.swift */,
 				FDA1620528BBDAB000008B60 /* ViewController.swift */,
+				FDC2F65328C0E703004D3B95 /* DetayVC.swift */,
 				FD450A3C28BE35A400107B41 /* UrunCollectionViewCell.swift */,
 				FD450A3E28BE3EA600107B41 /* Urunler.swift */,
 				FDA1620728BBDAB000008B60 /* Main.storyboard */,
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDC2F65428C0E703004D3B95 /* DetayVC.swift in Sources */,
 				FD450A3D28BE35A400107B41 /* UrunCollectionViewCell.swift in Sources */,
 				FDA1620628BBDAB000008B60 /* ViewController.swift in Sources */,
 				FDA1620228BBDAB000008B60 /* AppDelegate.swift in Sources */,
