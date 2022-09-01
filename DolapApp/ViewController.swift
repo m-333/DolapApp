@@ -29,8 +29,8 @@ class ViewController: UIViewController {
         navigationController?.navigationBar.scrollEdgeAppearance = appearance
         
         
-        let u1 = Urunler(urunId: 1, urunAdi: "Macbook Pro 14 ", urunFiyat: 43999.0, urunResimAdi: "bilgisayar")
-        let u2 = Urunler(urunId: 2, urunAdi: "Rayban Club Master  ", urunFiyat: 43999.0, urunResimAdi: "gozluk")
+        let u1 = Urunler(urunId: 1, urunAdi: "Macbook Pro 14 ", urunFiyat: 43999.0, urunResimAdi: "apple")
+        let u2 = Urunler(urunId: 2, urunAdi: "Rayban Club Master  ", urunFiyat: 43999.0, urunResimAdi: "ray-ban")
         let u3 = Urunler(urunId: 3, urunAdi: "Sony ZX",urunFiyat: 43999.0, urunResimAdi: "kulaklik" )
         let u4 = Urunler(urunId: 4, urunAdi: "Gio Armani ",  urunFiyat: 1000.0, urunResimAdi: "parfum")
         let u5 = Urunler(urunId: 5, urunAdi: "Casio X Series", urunFiyat: 1799.0,urunResimAdi: "saat")
