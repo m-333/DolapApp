@@ -30,12 +30,12 @@ class ViewController: UIViewController {
         
         
         let u1 = Urunler(urunId: 1, urunAdi: "Macbook Pro 14 ", urunFiyat: 43999.0, urunResimAdi: "apple")
-        let u2 = Urunler(urunId: 2, urunAdi: "Rayban Club Master  ", urunFiyat: 43999.0, urunResimAdi: "ray-ban")
-        let u3 = Urunler(urunId: 3, urunAdi: "Sony ZX",urunFiyat: 43999.0, urunResimAdi: "kulaklik" )
-        let u4 = Urunler(urunId: 4, urunAdi: "Gio Armani ",  urunFiyat: 1000.0, urunResimAdi: "parfum")
-        let u5 = Urunler(urunId: 5, urunAdi: "Casio X Series", urunFiyat: 1799.0,urunResimAdi: "saat")
-        let u6 = Urunler(urunId: 6, urunAdi: "Dyson V8 ", urunFiyat: 8999.0, urunResimAdi: "supurge")
-        let u7 = Urunler(urunId: 7, urunAdi: "Iphone 13 pro", urunFiyat: 23999.0, urunResimAdi: "telefon")
+        let u2 = Urunler(urunId: 2, urunAdi: "Rayban Club Master  ", urunFiyat: 800, urunResimAdi: "ray-ban")
+        let u3 = Urunler(urunId: 3, urunAdi: "Sony ZX",urunFiyat: 43999.0, urunResimAdi: "kulaklik0" )
+        let u4 = Urunler(urunId: 4, urunAdi: "Gio Armani Krem ",  urunFiyat: 500.0, urunResimAdi: "krem")
+        let u5 = Urunler(urunId: 5, urunAdi: "Casio X Series", urunFiyat: 1799.0,urunResimAdi: "download")
+        let u6 = Urunler(urunId: 6, urunAdi: "Dyson V8 ", urunFiyat: 8999.0, urunResimAdi: "supurge0")
+        let u7 = Urunler(urunId: 7, urunAdi: "Iphone 13 pro", urunFiyat: 23999.0, urunResimAdi: "telefon0")
         
         urunlerListesi.append(u1)
         urunlerListesi.append(u2)
@@ -76,7 +76,7 @@ extension ViewController : UICollectionViewDelegate,UICollectionViewDataSource{
         
         cell.urunResimCollectionView.image = UIImage(named: urun.urunResimAdi!)
         cell.urunKategoriLabel.text = urun.urunAdi
-        cell.urunFiyatLabel.text = "\(urun.urunFiyat!) ₺"
+        cell.urunFiyatLabel.text = "\(urun.urunFiyat!) TL"
         
         cell.layer.borderColor = UIColor.lightGray.cgColor
         cell.layer.borderWidth = 0.3
@@ -88,24 +88,7 @@ extension ViewController : UICollectionViewDelegate,UICollectionViewDataSource{
         return cell
     }
     
-    /* func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        let urun = urunlerListesi[indexPath.row]
-        performSegue(withIdentifier: "toDetay", sender: urun)
-    }
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "toDetay" {
-            if let f = sender as? Urunler {
-                let gidilecekVC = segue.destination as! DetayVC
-                gidilecekVC.film = f
-            }
-        }
-    }*/
-    
-   /* func buttonTiklandi(indexPath: IndexPath){
-        let urun = urunlerListesi[indexPath.row]
-        print("Button : \(urun.urunAdi!) sepete eklendi.")
-    }*/
+   
 }
 
 
